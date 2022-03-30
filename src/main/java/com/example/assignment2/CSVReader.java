@@ -101,29 +101,46 @@ public class CSVReader {
         return this.data;
     }
 
-    // FUNCTION TO WRITE NEW COL TO CSV 
-//    public void addCol() throws Exception {
-//        Writer csvWriter = null;
-//        try {
-//            File file = new File("/Users/amit.sar21/University/Second Year/Semester 2 /Systems Development and Integration - CSCI 2020/assignment/assignment-2-amitsarvate/src/main/resources/com/example/assignment2/airline_safety.csv");
-//            csvWriter = new BufferedWriter((new FileWriter(file)));
-//
-////            String line = student
-//
-////            for(String sum : this.data.get(8)) {
-////            }
-//        }
-//
-//    }
+    // FUNCTION TO WRITE NEW COL TO CSV
+    public void addColumn() throws IOException {
+        Writer csvWriter = null;
 
-    public static void main(String[] args) {
+        try {
+            File file = new File("/Users/amit.sar21/University/Second Year/Semester 2 /Systems Development and Integration - CSCI 2020/assignment/assignment-2-amitsarvate/src/main/resources/com/example/assignment2/airline_safety.csv");
+            csvWriter = new BufferedWriter((new FileWriter(file)));
+
+            // headers
+            String line = "airline" + "," + "avail_seat_km_per_week" + "," + "incidents_85_99" + "," + "fatal_accidents_85_99" + "," + "fatalities_85_99" + "," + "incidents_00_14" + "," + "fatal_accidents_00_14" + "," + "fatalities_00_14" + "," + "total_incidents" + "\n";
+            csvWriter.write(line);
+
+            for (int i = 0; i < this.data.get(0).size(); i++) {
+                line = this.data.get(0).get(i) + "," + this.data.get(1).get(i) + "," + this.data.get(2).get(i) + "," + this.data.get(3).get(i) + "," + this.data.get(4).get(i) + "," + this.data.get(5).get(i) + "," + this.data.get(6).get(i) + "," + this.data.get(7).get(i) + "," + this.data.get(8).get(i) + "\n";
+                csvWriter.write(line);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        } finally {
+            csvWriter.flush();
+            csvWriter.close();
+        }
+
+    }
+
+    public static void main(String[] args) throws IOException {
         CSVReader reader = new CSVReader();
+        reader.addColumn();
+
+        /*
 
         ArrayList<String> in1 = reader.getData().get(8);
 
         for (String index : in1) {
             System.out.println(index);
         }
+
+         */
 
 
     }
