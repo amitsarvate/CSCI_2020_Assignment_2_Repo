@@ -6,10 +6,11 @@ import java.util.ArrayList;
 
 public class CSVReader {
 
-    private ArrayList<ArrayList<String>> data = new ArrayList<>();
-    private int numRecords = 0;
+    public ArrayList<ArrayList<String>> data = new ArrayList<>();
+    public int numRecords = 0;
 
     /*
+
     Create an array list of array list
 
     0. airline
@@ -23,6 +24,8 @@ public class CSVReader {
 
     8. sum of incidents over 30 years
 
+    ASSUMPTION - We are only adding up the 2 incident columns. Assuming that the fatal accidents are included within
+    the incident counts
 
      */
 
@@ -128,22 +131,11 @@ public class CSVReader {
 
     }
 
-    public static void main(String[] args) throws IOException {
-        CSVReader reader = new CSVReader();
-        reader.addColumn();
-
-        /*
-
-        ArrayList<String> in1 = reader.getData().get(8);
-
-        for (String index : in1) {
-            System.out.println(index);
-        }
-
-         */
-
-
-    }
+//    public static void main(String[] args) throws IOException {
+//        CSVReader reader = new CSVReader();
+//        reader.addColumn();
+//
+//    }
 
 
 }
