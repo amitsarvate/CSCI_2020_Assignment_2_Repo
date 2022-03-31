@@ -1,13 +1,12 @@
 package com.example.assignment2;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class CSVReader {
 
     public ArrayList<ArrayList<String>> data = new ArrayList<>();
-    public int numRecords = 0;
+    private int numRecords = 0;
 
     /*
 
@@ -130,12 +129,5 @@ public class CSVReader {
         }
 
     }
-
-//    public static void main(String[] args) throws IOException {
-//        CSVReader reader = new CSVReader();
-//        reader.addColumn();
-//
-//    }
-
 
 }

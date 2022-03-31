@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<airlineData>
+    <Airline name="Aer Lingus">
+        <availKmPerWeek>320906734</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>2</totalIncidents>
+    </Airline>
+    <Airline name="Aeroflot*">
+        <availKmPerWeek>1197672318</availKmPerWeek>
+        <incidents85To99>76</incidents85To99>
+        <fatalAcc85To99>14</fatalAcc85To99>
+        <fatalities85To99>128</fatalities85To99>
+        <incidents00To14>6</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>88</fatalities00To14>
+        <totalIncidents>82</totalIncidents>
+    </Airline>
+    <Airline name="Aerolineas Argentinas">
+        <availKmPerWeek>385803648</availKmPerWeek>
+        <incidents85To99>6</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>7</totalIncidents>
+    </Airline>
+    <Airline name="Aeromexico*">
+        <availKmPerWeek>596871813</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>64</fatalities85To99>
+        <incidents00To14>5</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>8</totalIncidents>
+    </Airline>
+    <Airline name="Air Canada">
+        <availKmPerWeek>1865253802</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>4</totalIncidents>
+    </Airline>
+    <Airline name="Air France">
+        <availKmPerWeek>3004002661</availKmPerWeek>
+        <incidents85To99>14</incidents85To99>
+        <fatalAcc85To99>4</fatalAcc85To99>
+        <fatalities85To99>79</fatalities85To99>
+        <incidents00To14>6</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>337</fatalities00To14>
+        <totalIncidents>20</totalIncidents>
+    </Airline>
+    <Airline name="Air India*">
+        <availKmPerWeek>869253552</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>329</fatalities85To99>
+        <incidents00To14>4</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>158</fatalities00To14>
+        <totalIncidents>6</totalIncidents>
+    </Airline>
+    <Airline name="Air New Zealand*">
+        <availKmPerWeek>710174817</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>5</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>7</fatalities00To14>
+        <totalIncidents>8</totalIncidents>
+    </Airline>
+    <Airline name="Alaska Airlines*">
+        <availKmPerWeek>965346773</availKmPerWeek>
+        <incidents85To99>5</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>5</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>88</fatalities00To14>
+        <totalIncidents>10</totalIncidents>
+    </Airline>
+    <Airline name="Alitalia">
+        <availKmPerWeek>698012498</availKmPerWeek>
+        <incidents85To99>7</incidents85To99>
+        <fatalAcc85To99>2</fatalAcc85To99>
+        <fatalities85To99>50</fatalities85To99>
+        <incidents00To14>4</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>11</totalIncidents>
+    </Airline>
+    <Airline name="All Nippon Airways">
+        <availKmPerWeek>1841234177</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>1</fatalities85To99>
+        <incidents00To14>7</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>10</totalIncidents>
+    </Airline>
+    <Airline name="American*">
+        <availKmPerWeek>5228357340</availKmPerWeek>
+        <incidents85To99>21</incidents85To99>
+        <fatalAcc85To99>5</fatalAcc85To99>
+        <fatalities85To99>101</fatalities85To99>
+        <incidents00To14>17</incidents00To14>
+        <fatalAcc00To14>3</fatalAcc00To14>
+        <fatalities00To14>416</fatalities00To14>
+        <totalIncidents>38</totalIncidents>
+    </Airline>
+    <Airline name="Austrian Airlines">
+        <availKmPerWeek>358239823</availKmPerWeek>
+        <incidents85To99>1</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>2</totalIncidents>
+    </Airline>
+    <Airline name="Avianca">
+        <availKmPerWeek>396922563</availKmPerWeek>
+        <incidents85To99>5</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>323</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>5</totalIncidents>
+    </Airline>
+    <Airline name="British Airways*">
+        <availKmPerWeek>3179760952</availKmPerWeek>
+        <incidents85To99>4</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>6</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>10</totalIncidents>
+    </Airline>
+    <Airline name="Cathay Pacific*">
+        <availKmPerWeek>2582459303</availKmPerWeek>
+        <incidents85To99>0</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>2</totalIncidents>
+    </Airline>
+    <Airline name="China Airlines">
+        <availKmPerWeek>813216487</availKmPerWeek>
+        <incidents85To99>12</incidents85To99>
+        <fatalAcc85To99>6</fatalAcc85To99>
+        <fatalities85To99>535</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>225</fatalities00To14>
+        <totalIncidents>14</totalIncidents>
+    </Airline>
+    <Airline name="Condor">
+        <availKmPerWeek>417982610</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>16</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>2</totalIncidents>
+    </Airline>
+    <Airline name="COPA">
+        <availKmPerWeek>550491507</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>47</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>3</totalIncidents>
+    </Airline>
+    <Airline name="Delta / Northwest*">
+        <availKmPerWeek>6525658894</availKmPerWeek>
+        <incidents85To99>24</incidents85To99>
+        <fatalAcc85To99>12</fatalAcc85To99>
+        <fatalities85To99>407</fatalities85To99>
+        <incidents00To14>24</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>51</fatalities00To14>
+        <totalIncidents>48</totalIncidents>
+    </Airline>
+    <Airline name="Egyptair">
+        <availKmPerWeek>557699891</availKmPerWeek>
+        <incidents85To99>8</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>282</fatalities85To99>
+        <incidents00To14>4</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>14</fatalities00To14>
+        <totalIncidents>12</totalIncidents>
+    </Airline>
+    <Airline name="El Al">
+        <availKmPerWeek>335448023</availKmPerWeek>
+        <incidents85To99>1</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>4</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>2</totalIncidents>
+    </Airline>
+    <Airline name="Ethiopian Airlines">
+        <availKmPerWeek>488560643</availKmPerWeek>
+        <incidents85To99>25</incidents85To99>
+        <fatalAcc85To99>5</fatalAcc85To99>
+        <fatalities85To99>167</fatalities85To99>
+        <incidents00To14>5</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>92</fatalities00To14>
+        <totalIncidents>30</totalIncidents>
+    </Airline>
+    <Airline name="Finnair">
+        <availKmPerWeek>506464950</availKmPerWeek>
+        <incidents85To99>1</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>1</totalIncidents>
+    </Airline>
+    <Airline name="Garuda Indonesia">
+        <availKmPerWeek>613356665</availKmPerWeek>
+        <incidents85To99>10</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>260</fatalities85To99>
+        <incidents00To14>4</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>22</fatalities00To14>
+        <totalIncidents>14</totalIncidents>
+    </Airline>
+    <Airline name="Gulf Air">
+        <availKmPerWeek>301379762</availKmPerWeek>
+        <incidents85To99>1</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>3</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>143</fatalities00To14>
+        <totalIncidents>4</totalIncidents>
+    </Airline>
+    <Airline name="Hawaiian Airlines">
+        <availKmPerWeek>493877795</availKmPerWeek>
+        <incidents85To99>0</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>1</totalIncidents>
+    </Airline>
+    <Airline name="Iberia">
+        <availKmPerWeek>1173203126</availKmPerWeek>
+        <incidents85To99>4</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>148</fatalities85To99>
+        <incidents00To14>5</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>9</totalIncidents>
+    </Airline>
+    <Airline name="Japan Airlines">
+        <availKmPerWeek>1574217531</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>520</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>3</totalIncidents>
+    </Airline>
+    <Airline name="Kenya Airways">
+        <availKmPerWeek>277414794</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>283</fatalities00To14>
+        <totalIncidents>4</totalIncidents>
+    </Airline>
+    <Airline name="KLM*">
+        <availKmPerWeek>1874561773</availKmPerWeek>
+        <incidents85To99>7</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>3</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>8</totalIncidents>
+    </Airline>
+    <Airline name="Korean Air">
+        <availKmPerWeek>1734522605</availKmPerWeek>
+        <incidents85To99>12</incidents85To99>
+        <fatalAcc85To99>5</fatalAcc85To99>
+        <fatalities85To99>425</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>13</totalIncidents>
+    </Airline>
+    <Airline name="LAN Airlines">
+        <availKmPerWeek>1001965891</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>2</fatalAcc85To99>
+        <fatalities85To99>21</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>3</totalIncidents>
+    </Airline>
+    <Airline name="Lufthansa*">
+        <availKmPerWeek>3426529504</availKmPerWeek>
+        <incidents85To99>6</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>2</fatalities85To99>
+        <incidents00To14>3</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>9</totalIncidents>
+    </Airline>
+    <Airline name="Malaysia Airlines">
+        <availKmPerWeek>1039171244</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>34</fatalities85To99>
+        <incidents00To14>3</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>537</fatalities00To14>
+        <totalIncidents>6</totalIncidents>
+    </Airline>
+    <Airline name="Pakistan International">
+        <availKmPerWeek>348563137</availKmPerWeek>
+        <incidents85To99>8</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>234</fatalities85To99>
+        <incidents00To14>10</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>46</fatalities00To14>
+        <totalIncidents>18</totalIncidents>
+    </Airline>
+    <Airline name="Philippine Airlines">
+        <availKmPerWeek>413007158</availKmPerWeek>
+        <incidents85To99>7</incidents85To99>
+        <fatalAcc85To99>4</fatalAcc85To99>
+        <fatalities85To99>74</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>1</fatalities00To14>
+        <totalIncidents>9</totalIncidents>
+    </Airline>
+    <Airline name="Qantas*">
+        <availKmPerWeek>1917428984</availKmPerWeek>
+        <incidents85To99>1</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>5</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>6</totalIncidents>
+    </Airline>
+    <Airline name="Royal Air Maroc">
+        <availKmPerWeek>295705339</availKmPerWeek>
+        <incidents85To99>5</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>51</fatalities85To99>
+        <incidents00To14>3</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>8</totalIncidents>
+    </Airline>
+    <Airline name="SAS*">
+        <availKmPerWeek>682971852</availKmPerWeek>
+        <incidents85To99>5</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>6</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>110</fatalities00To14>
+        <totalIncidents>11</totalIncidents>
+    </Airline>
+    <Airline name="Saudi Arabian">
+        <availKmPerWeek>859673901</availKmPerWeek>
+        <incidents85To99>7</incidents85To99>
+        <fatalAcc85To99>2</fatalAcc85To99>
+        <fatalities85To99>313</fatalities85To99>
+        <incidents00To14>11</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>18</totalIncidents>
+    </Airline>
+    <Airline name="Singapore Airlines">
+        <availKmPerWeek>2376857805</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>2</fatalAcc85To99>
+        <fatalities85To99>6</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>83</fatalities00To14>
+        <totalIncidents>4</totalIncidents>
+    </Airline>
+    <Airline name="South African">
+        <availKmPerWeek>651502442</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>159</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>3</totalIncidents>
+    </Airline>
+    <Airline name="Southwest Airlines">
+        <availKmPerWeek>3276525770</availKmPerWeek>
+        <incidents85To99>1</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>8</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>9</totalIncidents>
+    </Airline>
+    <Airline name="Sri Lankan / AirLanka">
+        <availKmPerWeek>325582976</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>14</fatalities85To99>
+        <incidents00To14>4</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>6</totalIncidents>
+    </Airline>
+    <Airline name="SWISS*">
+        <availKmPerWeek>792601299</availKmPerWeek>
+        <incidents85To99>2</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>229</fatalities85To99>
+        <incidents00To14>3</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>5</totalIncidents>
+    </Airline>
+    <Airline name="TACA">
+        <availKmPerWeek>259373346</availKmPerWeek>
+        <incidents85To99>3</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>3</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>3</fatalities00To14>
+        <totalIncidents>4</totalIncidents>
+    </Airline>
+    <Airline name="TAM">
+        <availKmPerWeek>1509195646</availKmPerWeek>
+        <incidents85To99>8</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>98</fatalities85To99>
+        <incidents00To14>7</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>188</fatalities00To14>
+        <totalIncidents>15</totalIncidents>
+    </Airline>
+    <Airline name="TAP - Air Portugal">
+        <availKmPerWeek>619130754</availKmPerWeek>
+        <incidents85To99>0</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>0</totalIncidents>
+    </Airline>
+    <Airline name="Thai Airways">
+        <availKmPerWeek>1702802250</availKmPerWeek>
+        <incidents85To99>8</incidents85To99>
+        <fatalAcc85To99>4</fatalAcc85To99>
+        <fatalities85To99>308</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>1</fatalAcc00To14>
+        <fatalities00To14>1</fatalities00To14>
+        <totalIncidents>10</totalIncidents>
+    </Airline>
+    <Airline name="Turkish Airlines">
+        <availKmPerWeek>1946098294</availKmPerWeek>
+        <incidents85To99>8</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>64</fatalities85To99>
+        <incidents00To14>8</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>84</fatalities00To14>
+        <totalIncidents>16</totalIncidents>
+    </Airline>
+    <Airline name="United / Continental*">
+        <availKmPerWeek>7139291291</availKmPerWeek>
+        <incidents85To99>19</incidents85To99>
+        <fatalAcc85To99>8</fatalAcc85To99>
+        <fatalities85To99>319</fatalities85To99>
+        <incidents00To14>14</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>109</fatalities00To14>
+        <totalIncidents>33</totalIncidents>
+    </Airline>
+    <Airline name="US Airways / America West*">
+        <availKmPerWeek>2455687887</availKmPerWeek>
+        <incidents85To99>16</incidents85To99>
+        <fatalAcc85To99>7</fatalAcc85To99>
+        <fatalities85To99>224</fatalities85To99>
+        <incidents00To14>11</incidents00To14>
+        <fatalAcc00To14>2</fatalAcc00To14>
+        <fatalities00To14>23</fatalities00To14>
+        <totalIncidents>27</totalIncidents>
+    </Airline>
+    <Airline name="Vietnam Airlines">
+        <availKmPerWeek>625084918</availKmPerWeek>
+        <incidents85To99>7</incidents85To99>
+        <fatalAcc85To99>3</fatalAcc85To99>
+        <fatalities85To99>171</fatalities85To99>
+        <incidents00To14>1</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>8</totalIncidents>
+    </Airline>
+    <Airline name="Virgin Atlantic">
+        <availKmPerWeek>1005248585</availKmPerWeek>
+        <incidents85To99>1</incidents85To99>
+        <fatalAcc85To99>0</fatalAcc85To99>
+        <fatalities85To99>0</fatalities85To99>
+        <incidents00To14>0</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>1</totalIncidents>
+    </Airline>
+    <Airline name="Xiamen Airlines">
+        <availKmPerWeek>430462962</availKmPerWeek>
+        <incidents85To99>9</incidents85To99>
+        <fatalAcc85To99>1</fatalAcc85To99>
+        <fatalities85To99>82</fatalities85To99>
+        <incidents00To14>2</incidents00To14>
+        <fatalAcc00To14>0</fatalAcc00To14>
+        <fatalities00To14>0</fatalities00To14>
+        <totalIncidents>11</totalIncidents>
+    </Airline>
+</airlineData>

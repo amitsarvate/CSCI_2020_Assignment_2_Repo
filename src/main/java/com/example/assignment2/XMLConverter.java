@@ -79,7 +79,7 @@ public class XMLConverter {
             tf.setOutputProperty(OutputKeys.METHOD, "xml");
 
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("/Users/amit.sar21/University/Second Year/Semester 2 /Systems Development and Integration - CSCI 2020/assignment/assignment-2-amitsarvate/src/main/resources/com/example/assignment2/XMLTest.xml"));
+            StreamResult result = new StreamResult(new File("/Users/amit.sar21/University/Second Year/Semester 2 /Systems Development and Integration - CSCI 2020/assignment/assignment-2-amitsarvate/src/main/resources/com/example/assignment2/converted_airline_safety.xml"));
             tf.transform(source, result);
 
         } catch (Exception e) {
