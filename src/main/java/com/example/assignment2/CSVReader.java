@@ -20,8 +20,7 @@ public class CSVReader extends AirlineData{
 
     8. sum of incidents over 30 years
 
-    ASSUMPTION - We are only adding up the 2 incident columns. Assuming that the fatal accidents are included within
-    the incident counts
+    ASSUMPTION - As we read on Slack, we are only adding up the 2 incident columns, not the fatal accidents column.
 
      */
 
@@ -31,7 +30,8 @@ public class CSVReader extends AirlineData{
         BufferedReader reader = null;
         String line = "";
         int count = 0;
-
+        
+        // Initialize array for each column of CSV
         ArrayList<String> airline = new ArrayList<String>();
         ArrayList<String> avail_seat_km_week = new ArrayList<String>();
         ArrayList<String> incidents_85_99 = new ArrayList<String>();
@@ -43,8 +43,10 @@ public class CSVReader extends AirlineData{
         ArrayList<String> total_incid = new ArrayList<String>();
 
         try {
-            String route = this.path + "airline_safety.csv";
+            String route = this.path + "airline_safety.csv"; // Use path assigned in Airline data
             reader = new BufferedReader(new FileReader(route));
+            
+            // Loop through lines of CSV and add to respective array
             while((line = reader.readLine()) != null) {
                 String row[] = line.split(",");
 
@@ -64,7 +66,8 @@ public class CSVReader extends AirlineData{
                 count++;
 
             }
-
+            
+            // Add arrays for columns to readData attribute
             readData.add(airline);
             readData.add(avail_seat_km_week);
             readData.add(incidents_85_99);
@@ -84,6 +87,8 @@ public class CSVReader extends AirlineData{
                 e.printStackTrace();
             }
         }
+        
+        // Write new column to CSV file
         Writer csvWriter = null;
 
         try {
@@ -91,10 +96,11 @@ public class CSVReader extends AirlineData{
             File file = new File(route2);
             csvWriter = new BufferedWriter((new FileWriter(file)));
 
-            // headers
+            // Add headers to CSV
             String line2 = "airline" + "," + "avail_seat_km_per_week" + "," + "incidents_85_99" + "," + "fatal_accidents_85_99" + "," + "fatalities_85_99" + "," + "incidents_00_14" + "," + "fatal_accidents_00_14" + "," + "fatalities_00_14" + "," + "total_incidents" + "\n";
             csvWriter.write(line2);
-
+            
+            // Add data to CSV with new column
             for (int i = 0; i < readData.get(0).size(); i++) {
                 line2 = readData.get(0).get(i) + "," + readData.get(1).get(i) + "," + readData.get(2).get(i) + "," + readData.get(3).get(i) + "," + readData.get(4).get(i) + "," + readData.get(5).get(i) + "," + readData.get(6).get(i) + "," + readData.get(7).get(i) + "," + readData.get(8).get(i) + "\n";
                 csvWriter.write(line2);
@@ -108,7 +114,7 @@ public class CSVReader extends AirlineData{
             csvWriter.close();
         }
 
-        return readData;
+        return readData;  // return the data from CSV
     }
 
 }
