@@ -45,6 +45,7 @@ public class AirlineData {
     }
 
     public static void main(String[] args) throws IOException {
+        // Run to update Part 1 and Part 2 without launching the application
         AirlineData airline2 = new AirlineData();
         airline2.assignment2();
     }
