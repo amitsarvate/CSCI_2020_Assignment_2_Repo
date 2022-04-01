@@ -50,14 +50,10 @@
     </Stat>
     <Stat>
         <Name>incident_85_99</Name>
-        <Min/>
-        <Max/>
         <Avg>7.178571</Avg>
     </Stat>
     <Stat>
         <Name>incident_00_14</Name>
-        <Min/>
-        <Max/>
         <Avg>4.125</Avg>
     </Stat>
 </Summary>
