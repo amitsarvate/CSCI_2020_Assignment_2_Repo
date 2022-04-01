@@ -1,4 +1,4 @@
-package com.example.lab8;
+package com.example.assignment2;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -23,7 +23,6 @@ public class HelloApplication extends Application {
 
         // Get the CSV data
         data = reader.ReadCSV();
-
 
         CategoryAxis xAxis = new CategoryAxis();
         NumberAxis yAxis = new NumberAxis();
@@ -61,10 +60,6 @@ public class HelloApplication extends Application {
         stage.setTitle("Part 3 of Assignment 2");
         stage.setScene(scene);
         stage.show();
-
-        for (int i = 0; i < data.get(0).size(); i++) {
-            System.out.println(data.get(0).get(i));
-        }
 
     }
 

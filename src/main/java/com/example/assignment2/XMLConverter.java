@@ -1,4 +1,4 @@
-package com.example.lab8;
+package com.example.assignment2;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;

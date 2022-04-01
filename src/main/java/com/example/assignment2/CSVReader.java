@@ -1,4 +1,4 @@
-package com.example.lab8;
+package com.example.assignment2;
 
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
@@ -84,11 +84,9 @@ public class CSVReader extends AirlineData{
                 e.printStackTrace();
             }
         }
-        System.out.println(readData);
         Writer csvWriter = null;
 
         try {
-            System.out.println(readData);
             String route2 = this.path + "airline_safety.csv";
             File file = new File(route2);
             csvWriter = new BufferedWriter((new FileWriter(file)));
@@ -109,7 +107,6 @@ public class CSVReader extends AirlineData{
             csvWriter.flush();
             csvWriter.close();
         }
-
 
         return readData;
     }

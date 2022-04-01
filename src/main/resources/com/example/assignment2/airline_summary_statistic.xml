@@ -48,6 +48,12 @@
         <Max>82</Max>
         <Avg>11.303572</Avg>
     </Stat>
-    <AvgIncident85To99>7.178571</AvgIncident85To99>
-    <AvgIncident00To14>4.125</AvgIncident00To14>
+    <Stat>
+        <Name>incident_85_99</Name>
+        <Avg>7.178571</Avg>
+    </Stat>
+    <Stat>
+        <Name>incident_00_14</Name>
+        <Avg>4.125</Avg>
+    </Stat>
 </Summary>

@@ -1,14 +1,14 @@
-package com.example.lab8;
+package com.example.assignment2;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class AirlineData {
-    //public ArrayList<ArrayList<String>> data = new ArrayList<>();
+//    public ArrayList<ArrayList<String>> data = new ArrayList<>();
     public int numRecords = 0;
 
-    //private String path = "/Users/amit.sar21/University/Second Year/Semester 2 /Systems Development and Integration - CSCI 2020/assignment/assignment-2-amitsarvate/src/main/resources/com/example/assignment2/";
-    public static String path = "C:\\Users\\amand\\IdeaProjects\\lab8\\src\\main\\resources\\com\\example\\lab8\\";
+    public static String path = "/Users/amit.sar21/University/Second Year/Semester 2 /Systems Development and Integration - CSCI 2020/assignment/assignment-2-amitsarvate/src/main/resources/com/example/assignment2/";
+//    public static String path = "C:\\Users\\amand\\IdeaProjects\\lab8\\src\\main\\resources\\com\\example\\lab8\\";
     public ArrayList<String> headings = new ArrayList<>();
 
     public void assignment2() throws IOException {
