@@ -22,7 +22,8 @@ public class XMLStatWriter extends AirlineData {
 
         // Get the CSV data
         data = reader.ReadCSV();
-
+        
+        // Get data of values calculated in DataSum
         ArrayList<ArrayList<String>> statData = DataSum.getData(data);
 
         try {
@@ -35,6 +36,7 @@ public class XMLStatWriter extends AirlineData {
             doc.appendChild(root);
 
             for (int i = 0; i < statData.get(0).size(); i++) {
+                // Add the name, min, max and average values to the XML file for each column
                 Element stat = doc.createElement("Stat");
                 root.appendChild(stat);
 
@@ -55,21 +57,14 @@ public class XMLStatWriter extends AirlineData {
                 stat.appendChild(avg);
 
             }
-
+            
+            // Add the data for 2b and 2c to the XML file
             Element stat2b = doc.createElement("Stat");
             root.appendChild(stat2b);
 
             Element name2b = doc.createElement("Name");
             name2b.appendChild(doc.createTextNode(headings.get(2)));
             stat2b.appendChild(name2b);
-
-//            Element min2b = doc.createElement("Min");
-//            min2b.appendChild(doc.createTextNode(""));
-//            stat2b.appendChild(min2b);
-//
-//            Element max2b = doc.createElement("Max");
-//            max2b.appendChild(doc.createTextNode(""));
-//            stat2b.appendChild(max2b);
 
             Element avg2b = doc.createElement("Avg");
             avg2b.appendChild(doc.createTextNode(statData.get(2).get(1)));
@@ -82,37 +77,18 @@ public class XMLStatWriter extends AirlineData {
             name2c.appendChild(doc.createTextNode(headings.get(5)));
             stat2c.appendChild(name2c);
 
-//            Element min2c = doc.createElement("Min");
-//            min2c.appendChild(doc.createTextNode(""));
-//            stat2c.appendChild(min2c);
-//
-//            Element max2c = doc.createElement("Max");
-//            max2c.appendChild(doc.createTextNode(""));
-//            stat2c.appendChild(max2c);
-
             Element avg2c = doc.createElement("Avg");
             avg2c.appendChild(doc.createTextNode(statData.get(2).get(4)));
             stat2c.appendChild(avg2c);
 
-
-//            Element avgIncident85To99 = doc.createElement("AvgIncident85To99");
-//            avgIncident85To99.appendChild(doc.createTextNode(statData.get(2).get(1)));
-//            root.appendChild(avgIncident85To99);
-//
-//            Element avgIncident00To14 = doc.createElement("AvgIncident00To14");
-//            avgIncident00To14.appendChild(doc.createTextNode(statData.get(2).get(4)));
-//            root.appendChild(avgIncident00To14);
-
-
-            // conversion to XML
+            // Convert to XML with indent
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer tf = transformerFactory.newTransformer();
-
             tf.setOutputProperty(OutputKeys.INDENT, "yes");
             tf.setOutputProperty(OutputKeys.METHOD, "xml");
-
+            
+            // Output XML to the correct file path
             DOMSource source = new DOMSource(doc);
-            //StreamResult result = new StreamResult(new File(path));
             StreamResult result = new StreamResult(new File(path + "airline_summary_statistic.xml"));
             tf.transform(source, result);
 
