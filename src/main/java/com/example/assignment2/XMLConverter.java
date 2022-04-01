@@ -25,6 +25,7 @@ public class XMLConverter extends AirlineData{
         data = reader.ReadCSV();
 
         try {
+            // Use DocumentBuilder to create doc
             DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
             Document doc = docBuilder.newDocument();
@@ -32,7 +33,8 @@ public class XMLConverter extends AirlineData{
             // Root Element of XML File
             Element root = doc.createElement("airlineData");
             doc.appendChild(root);
-
+            
+            // Add data to the XML with correct headings
             for (int i = 0; i < data.get(0).size(); i++) {
                 Element airline = doc.createElement("Airline");
                 root.appendChild(airline);
@@ -42,6 +44,7 @@ public class XMLConverter extends AirlineData{
                 airline.setAttributeNode(attr);
 
                 for (int j = 1; j < headings.size(); j++){
+                    // Loop through adding column data
                     Element ele = doc.createElement(headings.get(j));
                     ele.appendChild(doc.createTextNode(data.get(j).get(i)));
                     airline.appendChild(ele);
@@ -50,15 +53,14 @@ public class XMLConverter extends AirlineData{
             }
 
 
-            // conversion to XML
+            // Convert to XML with indents
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer tf = transformerFactory.newTransformer();
-
             tf.setOutputProperty(OutputKeys.INDENT, "yes");
             tf.setOutputProperty(OutputKeys.METHOD, "xml");
-
+            
+            // Output the XML file to correct file path
             DOMSource source = new DOMSource(doc);
-            //StreamResult result = new StreamResult(new File(path));
             StreamResult result = new StreamResult(new File(path + "converted_airline_safety.xml"));
             tf.transform(source, result);
 
