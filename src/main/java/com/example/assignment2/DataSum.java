@@ -8,7 +8,7 @@ public class DataSum {
 
         ArrayList<ArrayList<String>> dataSum = new ArrayList<>();
 
-        // contains minimum values from each of the numeric columns (1 to 8)
+        // Create array for min, max and average values from each of the numeric columns (1 to 8)
         ArrayList<String> minimum = new ArrayList<>();
         ArrayList<String> maximum = new ArrayList<>();
         ArrayList<String> average = new ArrayList<>();
@@ -23,17 +23,21 @@ public class DataSum {
             for (int j = 0; j < data.get(i).size(); j++) {
                 Long currentVal = Long.parseLong(currentArray.get(j));
 
-                sum = sum + (float)currentVal;
-
-                if(currentVal > max) {
+                sum = sum + (float)currentVal; // Add the values of column for the average
+                
+                // If next value in the column is larger than current max, update max
+                if(currentVal > max) { 
                     max = currentVal;
                 }
+                
+                // If next value in the column is smaller than current min, update min
                 if(currentVal < min) {
                     min = currentVal;
                 }
 
             }
-
+            
+            // Calculate the average using the sum of the column
             float avg = sum / data.get(i).size();
 
             String minConv = String.valueOf(min);
@@ -45,7 +49,8 @@ public class DataSum {
             average.add(avgConv);
 
         }
-
+        
+        // Add calculated values to respective array
         dataSum.add(minimum);
         dataSum.add(maximum);
         dataSum.add(average);
